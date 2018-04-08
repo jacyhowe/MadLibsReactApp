@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
+import MadLibsForm from './madlibs_form';
 
-export default class App extends Component {
+export default class App extends React.Component {
   render() {
     return (
       <div>
@@ -9,8 +10,10 @@ export default class App extends Component {
           <h1>Bottega Mad Libs</h1>
           <div className="madLibs-subheading">
           Fill out the fields below and click the generate button<br/>to see the Mad Lib story.
-           </div>
+            </div>
           </div>
+          <MadLibsForm />
+          
         </div>
       </div>
     );
