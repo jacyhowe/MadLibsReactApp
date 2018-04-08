@@ -4,6 +4,8 @@ $mainGray: #CFCFCF;
 $darkGray: #444444;
 $font-primary: 'Montserrat', sans-serif;
 
+@import 'components/madlibform';
+
 .backgroundSkew {
     width: 100vw;
     height: 700px;
@@ -32,3 +34,6 @@ $font-primary: 'Montserrat', sans-serif;
     color: rgba(255, 255, 255, 0.75);
     font-size: 14px;
 }
+
+
+
