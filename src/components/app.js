@@ -12,9 +12,7 @@ export default class App extends React.Component {
           Fill out the fields below and click the generate button<br/>to see the Mad Lib story.
             </div>
           </div>
-          <MadLibsForm name=
-          "Max"
-          />
+          <MadLibsForm />
           
         </div>
       </div>
